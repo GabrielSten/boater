@@ -6,6 +6,10 @@ export const places = [
     originLongitude: 11.795187,
     destinationGid: "9021014005630000",
   },
+  {
+    name: "Lindholmen",
+    originName: "Lindholmen, Göteborg",
+  },
 ];
 
 export const defaultSettings = [
