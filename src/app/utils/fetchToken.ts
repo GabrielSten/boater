@@ -1,11 +1,6 @@
-type Token = {
-  access_token: string;
-  scope: string;
-  token_type: string;
-  expires_in: number;
-};
+import { Token } from "../types";
 
-export async function getToken() {
+export async function fetchToken() {
   const headers = { "Content-Type": "application/x-www-form-urlencoded" };
 
   const body = new URLSearchParams({

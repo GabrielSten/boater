@@ -1,4 +1,4 @@
-export type resultData = {
+export type ResultData = {
   results: Result[];
   links: Links;
 };
@@ -178,4 +178,11 @@ type Links = {
   previous: string;
   next: string;
   current: string;
+};
+
+export type Token = {
+  access_token: string;
+  scope: string;
+  token_type: string;
+  expires_in: number;
 };
